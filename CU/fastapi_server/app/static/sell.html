@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller</title>
+    <link rel="stylesheet" href="../static/css/sell.css">
+    <link rel="stylesheet" href="../static/index.html">
+</head>
+<body>
+<div class="container">
+   <div class="form">
+    <div class="divide">
+      <h2>Upload a Photo</h2>
+      <form action="http://localhost:8000/uploadfile/" method="post" enctype="multipart/form-data">
+        Select a photo to upload:
+        <input type="file" name="file">
+        <input type="submit" value="Upload Photo">
+      </form>
+
+      <a href="glb.html">click here to see the uploaded file</a>
+    </div>
+
+   </div>
+</div>
+    
+</body>
+</html>
